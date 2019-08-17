@@ -26,3 +26,4 @@ class Basics :
             return n
 
         return self.factorialIterative(n - 1) + self.factorialIterative(n - 2)
+

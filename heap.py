@@ -1,4 +1,4 @@
-class Heap:
+class heap:
 
     def heapify(self, nums):
         for i in range((len(nums) - 1) // 2, -1 , -1):
@@ -14,3 +14,7 @@ class Heap:
 
             nums[son], nums[i] = nums[i], nums[son]
             i = son
+
+
+
+
